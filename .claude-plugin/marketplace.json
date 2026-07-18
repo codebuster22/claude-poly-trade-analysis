@@ -1,0 +1,7 @@
+{
+  "name": "trade-analysis-plugin",
+  "owner": { "name": "Titus" },
+  "plugins": [
+    { "name": "trade-analysis", "source": ".", "description": "Annotated Polymarket fills with on-chain role + fee, CSV + optional visualization." }
+  ]
+}

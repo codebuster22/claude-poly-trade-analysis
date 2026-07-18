@@ -1,0 +1,17 @@
+{
+  "name": "@titus/trade-analysis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "bin": { "trade-analysis": "./src/cli.ts" },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "viem": "^2.52.2",
+    "zod": "^3.23.0"
+  }
+}

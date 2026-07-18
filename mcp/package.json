@@ -1,0 +1,11 @@
+{
+  "name": "@titus/trade-analysis-mcp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./server.ts --outfile ../dist/server.js --target=bun --minify"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0"
+  }
+}

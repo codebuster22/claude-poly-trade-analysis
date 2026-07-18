@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "trade-analysis": {
+      "type": "stdio",
+      "command": "bun",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/server.js"],
+      "timeout": 21600000
+    }
+  }
+}

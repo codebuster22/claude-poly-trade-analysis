@@ -1,0 +1,12 @@
+{
+  "name": "trade-analysis",
+  "description": "Annotated Polymarket fills for a market + time window with authoritative on-chain maker/taker role and real fee. Ask in plain English (\"who traded around this goal?\") and get a CSV plus an optional visualization.",
+  "version": "0.1.4",
+  "author": { "name": "Titus" },
+  "license": "MIT",
+  "keywords": ["polymarket", "trading", "analysis", "onchain", "mcp"],
+  "userConfig": {
+    "falcon_api_key": { "type": "string", "title": "Falcon API Key", "description": "Falcon API key for Polymarket trade data.", "sensitive": true },
+    "polygon_rpc_url": { "type": "string", "title": "Polygon RPC URL", "description": "Polygon RPC endpoint for on-chain role/fee decoding.", "sensitive": true }
+  }
+}
